@@ -1,6 +1,5 @@
 <?php
-use Opis\Closure\SerializableClosure;
-
+use Laravel\SerializableClosure\SerializableClosure;
 
 $function = function(){
 	//$theme->setTitle('Something in global.');
