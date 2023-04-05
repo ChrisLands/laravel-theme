@@ -1,4 +1,4 @@
-<?php namespace Ayra\Theme;
+<?php namespace ChrisLands\Theme;
 
 use Illuminate\Filesystem\Filesystem;
 
@@ -22,7 +22,7 @@ class Manifest
      * Create a new theme instance.
      *
      * @param  \Illuminate\Filesystem\Filesystem $files
-     * @return \Ayra\Theme\Manifest
+     * @return \ChrisLands\Theme\Manifest
      */
 	public function __construct(Filesystem $files)
     {

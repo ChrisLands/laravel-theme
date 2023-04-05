@@ -1,4 +1,4 @@
-<?php namespace Ayra\Theme;
+<?php namespace ChrisLands\Theme;
 
 use Illuminate\Support\Facades\Blade;
 use Illuminate\Routing\Router;
@@ -131,7 +131,7 @@ class ThemeServiceProvider extends ServiceProvider {
 			return new Theme($app['config'], $app['events'], $app['view'], $app['asset'], $app['files'], $app['breadcrumb'], $app['manifest']);
 		});
 
-		$this->app->alias('theme', 'Ayra\Theme\Contracts\Theme');
+		$this->app->alias('theme', 'ChrisLands\Theme\Contracts\Theme');
 	}
 
 	/**

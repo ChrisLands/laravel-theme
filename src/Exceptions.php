@@ -1,4 +1,4 @@
-<?php namespace Ayra\Theme;
+<?php namespace ChrisLands\Theme;
 
 class UnknownThemeException extends \UnexpectedValueException {}
 class UnknownViewFileException extends \UnexpectedValueException {}

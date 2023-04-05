@@ -1,4 +1,4 @@
-<?php namespace Ayra\Theme\Commands;
+<?php namespace ChrisLands\Theme\Commands;
 
 use Illuminate\Console\Command;
 use Illuminate\Config\Repository;
@@ -41,7 +41,7 @@ class ThemeDestroyCommand extends Command {
      *
      * @param \Illuminate\Config\Repository     $config
      * @param \Illuminate\Filesystem\Filesystem $files
-     * @return \Ayra\Theme\Commands\ThemeDestroyCommand
+     * @return \ChrisLands\Theme\Commands\ThemeDestroyCommand
      */
 	public function __construct(Repository $config, File $files)
 	{

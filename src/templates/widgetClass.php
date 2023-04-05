@@ -1,7 +1,7 @@
 <?php namespace {widgetNamespace};
 
-use Ayra\Theme\Theme;
-use Ayra\Theme\Widget;
+use ChrisLands\Theme\Theme;
+use ChrisLands\Theme\Widget;
 
 class {widgetClass} extends Widget {
 

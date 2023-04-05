@@ -1,4 +1,4 @@
-<?php namespace Ayra\Theme;
+<?php namespace ChrisLands\Theme;
 
 use Closure;
 use Illuminate\Support\Facades\URL;

@@ -1,4 +1,4 @@
-<?php namespace Ayra\Theme;
+<?php namespace ChrisLands\Theme;
 
 use Closure;
 use ReflectionClass;
@@ -10,8 +10,8 @@ use Illuminate\Filesystem\Filesystem;
 use Illuminate\View\Compilers\BladeCompiler;
 use Illuminate\Database\Eloquent\Collection;
 use Symfony\Component\HttpFoundation\Cookie;
-use Ayra\Theme\Contracts\Theme as ThemeContract;
-use Ayra\Theme\Manifest;
+use ChrisLands\Theme\Contracts\Theme as ThemeContract;
+use ChrisLands\Theme\Manifest;
 use Illuminate\Support\Arr;
 use Laravel\SerializableClosure\SerializableClosure;
 class Theme implements ThemeContract
@@ -31,7 +31,7 @@ class Theme implements ThemeContract
     /**
      * Manifest.
      *
-     * @var \Ayra\Theme\Manifest
+     * @var \ChrisLands\Theme\Manifest
      */
     protected $manifest;
 
@@ -59,7 +59,7 @@ class Theme implements ThemeContract
     /**
      * Asset.
      *
-     * @var \Ayra\Assets
+     * @var \ChrisLands\Assets
      */
     protected $asset;
 
@@ -73,7 +73,7 @@ class Theme implements ThemeContract
     /**
      * Breadcrumb.
      *
-     * @var \Ayra\Breadcrumb
+     * @var \ChrisLands\Breadcrumb
      */
     protected $breadcrumb;
 
@@ -155,12 +155,12 @@ class Theme implements ThemeContract
      * @param  \Illuminate\Config\Repository $config
      * @param  \Illuminate\Events\Dispatcher $events
      * @param  \Illuminate\View\Factory $view |
-     * @param  \Ayra\Theme\asset $asset
+     * @param  \ChrisLands\Theme\asset $asset
      * @param  \Illuminate\Filesystem\Filesystem $files
-     * @param  \Ayra\Breadcrumb|\Ayra\Theme\Breadcrumb $breadcrumb
-     * @param  \Ayra\Theme\Manifest $manifest
+     * @param  \ChrisLands\Breadcrumb|\ChrisLands\Theme\Breadcrumb $breadcrumb
+     * @param  \ChrisLands\Theme\Manifest $manifest
      *
-     * @return \Ayra\Theme\Theme
+     * @return \ChrisLands\Theme\Theme
      */
     public function __construct(Repository $config,
                                 Dispatcher $events,
@@ -787,7 +787,7 @@ class Theme implements ThemeContract
      * @param  string $className
      * @param  array $attributes
      * @throws UnknownWidgetClassException
-     * @return Ayra\Theme\Widget
+     * @return ChrisLands\Theme\Widget
      */
     public function widget($className, $attributes = array())
     {
@@ -948,7 +948,7 @@ class Theme implements ThemeContract
     /**
      * Return asset instance.
      *
-     * @return \Ayra\Theme\Asset
+     * @return \ChrisLands\Theme\Asset
      */
     public function asset()
     {
@@ -958,7 +958,7 @@ class Theme implements ThemeContract
     /**
      * Return breadcrumb instance.
      *
-     * @return \Ayra\Theme\Breadcrumb
+     * @return \ChrisLands\Theme\Breadcrumb
      */
     public function breadcrumb()
     {

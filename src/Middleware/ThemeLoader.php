@@ -1,4 +1,4 @@
-<?php namespace Ayra\Theme\Middleware;
+<?php namespace ChrisLands\Theme\Middleware;
 
 use Closure, Theme;
 

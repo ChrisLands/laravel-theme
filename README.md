@@ -63,14 +63,14 @@ Theme also ships with a facade which provides the static syntax for creating col
 ~~~php
 'aliases' => [
 	...
-	'Theme' => Ayra\Theme\Facades\Theme::class,
+	'Theme' => ChrisLands\Theme\Facades\Theme::class,
 
 ]
 ~~~
 Publish config using artisan CLI.
 
 ~~~
-php artisan vendor:publish --provider="Ayra\Theme\ThemeServiceProvider"
+php artisan vendor:publish --provider="ChrisLands\Theme\ThemeServiceProvider"
 ~~~
 
 It's recommended to add to the `.env` file the theme that we are going to use
@@ -730,7 +730,7 @@ or
 
 ## Using theme global
 ~~~php
-use Ayra\Theme\Contracts\Theme;
+use ChrisLands\Theme\Contracts\Theme;
 use App\Http\Controllers\Controller;
 
 class BaseController extends Controller {
@@ -738,7 +738,7 @@ class BaseController extends Controller {
 	/**
 	 * Theme instance.
 	 *
-	 * @var \Ayra\Theme\Theme
+	 * @var \ChrisLands\Theme\Theme
 	 */
 	protected $theme;
 
@@ -778,7 +778,7 @@ Only register it in `app\Http\Kernel.php`
 ~~~php
 protected $routeMiddleware = [
     ...
-    'setTheme' => \Ayra\Theme\Middleware\ThemeLoader::class,
+    'setTheme' => \ChrisLands\Theme\Middleware\ThemeLoader::class,
 ];
 ~~~
 

@@ -1,4 +1,4 @@
-<?php namespace Ayra\Theme;
+<?php namespace ChrisLands\Theme;
 
 use Illuminate\Support\Facades\URL;
 use Illuminate\Filesystem\Filesystem;
@@ -31,7 +31,7 @@ class Breadcrumb {
      *
      * @param  \Illuminate\Filesystem\Filesystem $files
      *
-     * @return \Ayra\Theme\Breadcrumb
+     * @return \ChrisLands\Theme\Breadcrumb
      */
     public function __construct(Filesystem $files)
     {

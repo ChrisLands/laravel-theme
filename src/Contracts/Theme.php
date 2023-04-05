@@ -1,4 +1,4 @@
-<?php namespace Ayra\Theme\Contracts;
+<?php namespace ChrisLands\Theme\Contracts;
 
 interface Theme {
 

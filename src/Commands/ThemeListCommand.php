@@ -1,4 +1,4 @@
-<?php namespace Ayra\Theme\Commands;
+<?php namespace ChrisLands\Theme\Commands;
 
 use Illuminate\Console\Command;
 use Illuminate\Config\Repository;
@@ -6,7 +6,7 @@ use Illuminate\Filesystem\Filesystem as File;
 use Symfony\Component\Console\Input\InputOption;
 use Illuminate\Database\Eloquent\Collection;
 use Symfony\Component\Console\Input\InputArgument;
-use Ayra\Theme\Theme;
+use ChrisLands\Theme\Theme;
 
 class ThemeListCommand extends Command {
 
@@ -43,7 +43,7 @@ class ThemeListCommand extends Command {
 	 *
 	 * @param \Illuminate\Config\Repository     $config
 	 * @param \Illuminate\Filesystem\Filesystem $files
-	 * @return \Ayra\Theme\Commands\ThemeListCommand
+	 * @return \ChrisLands\Theme\Commands\ThemeListCommand
 	 */
 	public function __construct(Repository $config, File $files)
 	{

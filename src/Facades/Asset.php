@@ -1,4 +1,4 @@
-<?php namespace Ayra\Theme\Facades;
+<?php namespace ChrisLands\Theme\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
