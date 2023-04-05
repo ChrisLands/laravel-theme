@@ -43,7 +43,7 @@ or
 To get the latest version of laravel-themes simply require it in your `composer.json` file.
 
 ~~~json
- "ayra/laravel-themes": "dev-master",
+ "ChrisLands/laravel-themes": "1.0.0",
 ~~~
 
 You'll then need to run `composer install` to download it and have the autoloader updated.
@@ -53,7 +53,7 @@ Once Theme is installed you need to register the service provider with the appli
 ~~~php
 'providers' => [
 	...
-	Ayra\Theme\ThemeServiceProvider::class,
+	ChrisLands\Theme\ThemeServiceProvider::class,
 
 ]
 ~~~
