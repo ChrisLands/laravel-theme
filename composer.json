@@ -1,5 +1,5 @@
 {
-    "name": "ChrisLands/laravel-theme",
+    "name": "chrislands/laravel-theme",
     "description": "Theme will help you organize your themes inside Laravel projects easily and maintain its related assets, layouts and partials for the theme in single directory. (Based on teepluss/theme)",
     "keywords": ["laravel", "theme", "layout", "asset", "widget"],
     "homepage": "https://github.com/ChrisLands/laravel-theme",
